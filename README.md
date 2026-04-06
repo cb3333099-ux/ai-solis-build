@@ -71,3 +71,73 @@ Yes, you can!
 To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
 
 Read more here: [Setting up a custom domain](https://docs.lovable.dev/features/custom-domain#custom-domain)
+
+---
+
+## 📊 Pāṇini Linguistics — PowerPoint Presentation Generator
+
+This repository also includes a Python script that automatically generates a professional
+10-slide academic PowerPoint presentation titled **"Contribution of Pāṇini to Linguistics"**.
+
+### Prerequisites
+
+- Python 3.8 or higher
+- pip
+
+### Setup
+
+```bash
+# Install the required Python dependency
+pip install -r requirements.txt
+```
+
+### Generate the Presentation
+
+```bash
+python create_presentation.py
+```
+
+This will create a file named **`panini_linguistics_presentation.pptx`** in the current
+directory. Open it with Microsoft PowerPoint, LibreOffice Impress, or Google Slides.
+
+### Slide Overview
+
+| # | Title |
+|---|-------|
+| 1 | Title Slide — "Contribution of Pāṇini to Linguistics" |
+| 2 | Introduction — Background of Pāṇini |
+| 3 | Aṣṭādhyāyī — His Main Work |
+| 4 | Scientific and Logical Approach |
+| 5 | Generative Grammar Concept |
+| 6 | Use of Meta-language |
+| 7 | Phonetics and Sound Classification |
+| 8 | Morphology (Word Formation) |
+| 9 | Rule Ordering and Influence on Modern Linguistics |
+| 10 | Conclusion |
+
+### Features
+
+- **Professional design** — deep navy blue, white, and gold academic colour scheme
+- **Paragraph-style content** — academic prose, not just bullet points
+- **Speaker notes** — comprehensive notes on every slide
+- **Stat cards** — key numbers highlighted on relevant slides
+- **Image placeholders** — clearly labelled boxes ready to be replaced with images
+- **Widescreen (16:9)** — optimised for modern display and projection
+
+### Adding Images
+
+Each content slide contains a labelled image placeholder on the right side. To replace a
+placeholder with a real image, open the `.pptx` file in PowerPoint, click the placeholder
+box, delete it, and insert your image (`Insert → Pictures`). Recommended images:
+
+- Pāṇini statue or artistic depiction
+- Sanskrit manuscripts or palm-leaf texts
+- Phonetics / articulatory diagrams
+- Grammar tree / generative grammar illustrations
+- Timeline of linguistic history
+
+### Dependencies
+
+| Package | Version | Purpose |
+|---------|---------|---------|
+| [python-pptx](https://python-pptx.readthedocs.io/) | ≥ 0.6.23 | PowerPoint generation |
